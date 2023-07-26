@@ -15,7 +15,7 @@ const registerUser=asyncHandler(async(req,res)=>{
     resizeBy.status(400);
     throw new Error("User already exists");
    }
-
+// /sjkdsjkfvsi
    const user=await User.create({
     name,
     email,
